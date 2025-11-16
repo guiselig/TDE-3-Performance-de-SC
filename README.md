@@ -11,7 +11,7 @@ Lembrete: Com a autorização do professor, todos os códigos foram feitos na li
 Parte 1: O Jantar dos Filósofos (Deadlock)
 
 1.1:
-	•	Código: 1.1.c
+	•	Código: [1.1.c](1.1.c)
 
 O primeiro código mostra onde 5 filósofos tentam pegar, em ordem, o garfo da esquerda e depois o garfo da direita.
 Análise do Impasse:

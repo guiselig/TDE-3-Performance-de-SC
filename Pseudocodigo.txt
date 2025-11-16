@@ -1,0 +1,42 @@
+Pseudocódigo 1.2
+
+Filósofos 0-4 (mapeados para 1-5 no PRINT)
+Garfos 0-4 
+
+INÍCIO
+
+Rodada 1: Ímpares comem
+
+PRINT "-- Grupo 1: Filósofos 1 e 3 --" 
+
+INICIAR THREAD(Filósofo 0, AÇÃO = COMER) 
+INICIAR THREAD(Filósofo 2, AÇÃO = COMER) 
+INICIAR THREAD(Filósofo 1, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 3, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 4, AÇÃO = PENSAR) 
+ESPERAR THREAD(0) e THREAD(2) TERMINAREM.
+
+Rodada 2: Pares comem 
+
+PRINT "-- Grupo 2: Filósofos 2 e 4 --" 
+
+INICIAR THREAD(Filósofo 1, AÇÃO = COMER) 
+INICIAR THREAD(Filósofo 3, AÇÃO = COMER) 
+INICIAR THREAD(Filósofo 0, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 2, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 4, AÇÃO = PENSAR) 
+ESPERAR THREAD(1) e THREAD(3) TERMINAREM.
+
+Rodada 3: Último come 
+
+PRINT "-- Grupo 3: Filósofo 5 --" 
+
+INICIAR THREAD(Filósofo 4, AÇÃO = COMER) 
+INICIAR THREAD(Filósofo 0, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 1, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 2, AÇÃO = PENSAR) 
+INICIAR THREAD(Filósofo 3, AÇÃO = PENSAR) 
+ESPERAR THREAD(4) TERMINAR. 
+
+
+FIM

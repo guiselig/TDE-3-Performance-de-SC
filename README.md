@@ -29,7 +29,7 @@ A solução usa a estratégia do Árbitro (Garçom). A main atua como o garçom,
 Análise da Solução:
 Este protocolo quebra a condição de Espera Circular. Como o garçom só permite que filósofos que não sejam vizinhos (ex: 1 e 3) comam ao mesmo tempo, o círculo de dependência (0 espera 1, 1 espera 2, …) é impossível de se formar.
 
-Aqui está o [pseudocódigo.](Pseudocódigo.txt)
+Aqui está o [pseudocódigo.](Pseudocodigo.txt)
 
 Parte 2: Contador Concorrente (Condição de Corrida)
 
